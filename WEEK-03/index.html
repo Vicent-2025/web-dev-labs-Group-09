@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Our Webpage</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal CSS -->
+    <style>
+
+        /* Navigation styling */
+        nav ul {
+            list-style-type: none;
+            background-color: rgb(32, 32, 151);
+            padding: 10px;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        /* Pseudo Class */
+        nav ul li a:hover {
+            color: yellow;
+        }
+
+        /* Group Selector */
+        h1, h2, h3 {
+            font-family: Arial;
+        }
+
+        /* ID Selector */
+        #header {
+            text-align: center;
+            color: darkred;
+        }
+
+        /* Class Selector */
+        .section {
+            margin: 20px;
+            padding: 15px;
+            border: 1px solid rgb(17, 17, 17);
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <div id="header">
+        <h1>GROUP-09</h1>
+        <h3>Web Development Students</h3>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#routine">Daily Routine</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Section -->
+    <div class="section" id="about">
+        <h2>About Me</h2>
+
+        <!-- Inline CSS -->
+        <p style="color: rgb(25, 224, 25);">
+            We are learning HTML and CSS for web development.
+        </p>
+
+        <!-- Inline CSS -->
+        <img src="image/pic.png"
+            width="200"
+            style="border-radius: 10px;">
+    </div>
+
+    <!-- Skills Section -->
+    <div class="section" id="skills">
+        <h2>Skills</h2>
+
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Networking</li>
+            <li>Arduino</li>
+        </ul>
+    </div>
+
+    <!-- Daily Routine -->
+    <div class="section" id="routine">
+        <h2>Daily Routine</h2>
+
+        <ol>
+            <li>Wake up</li>
+            <li>Attend classes</li>
+            <li>Practice coding</li>
+            <li>Read books</li>
+        </ol>
+    </div>
+
+</body>
+</html>
